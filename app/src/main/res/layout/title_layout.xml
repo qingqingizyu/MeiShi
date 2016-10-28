@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hsv_Navi"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RadioGroup
+            android:id="@+id/rg_menu"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rb_one"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:checked="true"
+                android:paddingLeft="5dp"
+                android:text="热门"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_two"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="搞笑"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_three"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="美妆时尚"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_four"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="#美食#"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_five"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="#吃秀#"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_six"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="#音乐#"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_Seven"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="#舞蹈#"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rb_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="宝宝"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="明星名人"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_ten"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="女神"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_Eleven"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="涨姿势"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rb_Twelve"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="#宠物#"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_thirteen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="男神"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_Fourteen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:drawableBottom="@drawable/btn_select"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="#逛拍#"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+    </RelativeLayout>
+</HorizontalScrollView>

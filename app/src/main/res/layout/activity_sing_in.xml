@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sing_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.android_a1607_okhttp.activity.SingInActivity">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/et_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="phone"
+        android:background="@android:drawable/edit_text"
+        android:hint="请输入手机号码"
+        android:padding="10dp" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/ed_passWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_user"
+        android:layout_margin="5dp"
+        android:inputType="textPassword"
+        android:background="@android:drawable/edit_text"
+        android:hint="请输入密码6-16位字符串"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tv_tishi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_passWord"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="我们不会泄露您的任何信息" />
+    <LinearLayout
+        android:id="@+id/lin_layout_two"
+        android:layout_below="@id/tv_tishi"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_yanNum"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:hint="请输入验证码"/>
+        <Button
+            android:onClick="Yanzhengma"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="获取验证码"
+            android:background="@android:drawable/editbox_background_normal"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_layout_two"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/editbox_background"
+        android:padding="10dp"
+        android:onClick="Register"
+        android:text="注册"
+        android:textStyle="bold" />
+</RelativeLayout>
